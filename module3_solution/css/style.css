@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+#header-nav {
+  background-color: #BFEFFF ;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: left;
+  margin: 0px 0px 0px 10px;
+  margin-bottom: 0;
+  line-height: .75;
+  color: #000000;
+}
+.nav>li {
+    position: relative;
+    display: block;
+    border: 1px solid #333;
+    border-bottom: 0px;
+}
+.nav>li.last {
+  border-bottom: 1px solid #333;
+}
+#nav-list {
+  margin-bottom: 0px;
+}
+.navbar-default .navbar-collapse {
+  border: none;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #236B8E;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+hr.visible-xs {
+  margin: 0px;
+  border-top: 1px solid #333;
+
+}
+.text {
+  font-size: 1.2em;
+}
+
+h1 {
+  font-family: 'Slabo 27px', serif;
+}
+
+#chickenDiv {
+  background-color: #d3d3d3;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+#beefDiv {
+  background-color: #d3d3d3;
+  margin-bottom: 60px;
+}
+#sushiDiv {
+  background-color: #d3d3d3;
+  margin-bottom: 30px;
+}
+#chicken, #beef, #sushi{
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.5em;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.boxContent {
+  margin: 20px;
+}
+
+
+
